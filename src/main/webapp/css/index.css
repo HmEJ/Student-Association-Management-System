@@ -1,0 +1,103 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+}
+*{
+    box-sizing:border-box;
+}
+body{
+    margin-top:0px;
+    margin-right:0px;
+    margin-bottom:0px;
+    margin-left:0px;
+    font-family:-apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, Roboto, Arial, "PingFang SC", "Hiragino Sans GB", "Microsoft Yahei", "Microsoft Jhenghei", sans-serif;
+}
+.logo path{
+    pointer-events:none;
+    fill:none;
+    stroke-linecap:round;
+    stroke-width:7;
+    stroke:rgb(255, 255, 255);
+}
+.wechat-group img{
+    max-width:220px;
+    height:auto;
+    border-top-left-radius:8px;
+    border-top-right-radius:8px;
+    border-bottom-right-radius:8px;
+    border-bottom-left-radius:8px;
+    margin-top:0px;
+    margin-right:auto;
+    margin-bottom:0px;
+    margin-left:auto;
+    width:100%;
+}
+.welcome-img img{
+    width:100%;
+    max-width:280px;
+}
+[data-aos]{
+    opacity:1 !important;
+    transform:translate(0px) scale(1) !important;
+}
+.row{
+    display:table;
+    padding-top:10px;
+    padding-right:10px;
+    padding-bottom:10px;
+    padding-left:10px;
+    width:100%;
+}
+header{
+    background-color:rgb(255, 255, 255);
+}
+header .navbar-nav a.nav-link{
+    color:rgb(119, 119, 119);
+}
+header .navbar-nav a.nav-link:hover{
+    color:rgb(82, 139, 255);
+}
+header .navbar-nav .active a.nav-link{
+    color:rgb(68, 68, 68);
+}
+header .navbar-toggler-icon{
+    background-image:url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+header.bg-dark .navbar-nav a.nav-link{
+    color:rgb(220, 220, 220);
+}
+header.bg-dark .navbar-nav a.nav-link:hover{
+    color:rgb(82, 139, 255);
+}
+header.bg-dark .navbar-nav .active a.nav-link{
+    color:rgb(255, 255, 255);
+}
+header.bg-dark .navbar-toggler-icon{
+    background-image:url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='#fff' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+header + header{
+    border-top-width:1px;
+    border-top-style:solid;
+    border-top-color:rgb(238, 238, 238);
+}
+.fdb-block .text-h1, .fdb-block h1{
+    font-size:1.75rem;
+    margin-bottom:0.5em;
+    margin-top:0.3em;
+    font-weight:400;
+}
+.c30865{
+    width:85%;
+}
+.c30934{
+    width:90%;
+}
+.c31001{
+    width:75%;
+}
+.c31068{
+    width:70%;
+}
+/**********************************************************************************************/

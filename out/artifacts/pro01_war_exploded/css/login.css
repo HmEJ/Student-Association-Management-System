@@ -1,0 +1,16 @@
+#login_container{
+    color: white;
+    background-color: white;
+    text-align: center;
+    z-index: 999;
+}
+
+form{
+    border: 1px solid white;
+    background-color: white;
+    margin-left: 600px;
+    margin-top: -150px;
+}
+a{
+    text-decoration: none;
+}

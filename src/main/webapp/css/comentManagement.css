@@ -1,0 +1,44 @@
+body{
+    background-color: #e6e6e6;
+}
+.container{
+    background-color: white;
+    margin-top: 4%;
+    margin-left: 8%;
+    margin-right: 8%;
+    height: 80vh;
+    overflow: auto;
+    border-radius: 20px;
+    box-shadow: 5px 5px #737272;
+}
+.title-text{
+    margin-top: 10px;
+    margin-left:10px ;
+    font-weight: bold;
+    font-size: 20px;
+    border: 0px solid red;
+}
+table{
+    border: 1px solid black;
+    border-collapse: collapse;
+    background-color: rgb(165, 236, 212);
+    margin-top: 10px;
+    margin-left: 40px;
+    text-align: center ;
+    width: 80%;
+    table-layout: fixed;
+}
+table,
+table tr ,
+table td{
+    border: 1px solid black;
+}
+
+a:link{
+    color: red;
+    text-decoration: none;
+}
+a:hover{
+    color: white;
+    text-decoration: none;
+}

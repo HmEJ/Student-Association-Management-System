@@ -1,0 +1,25 @@
+#welcome{
+    color: white;
+    font-size: 20px;
+    overflow: auto;
+    padding: 5px;
+}
+#welcome_container{
+    margin-top: 3%;
+    background-color: #13a188;
+    border-radius: 25px;
+    overflow: auto;
+}
+.banner{
+    background: #13a188;
+    border: 1px solid  black;
+}
+.bg{
+    width: 100%;
+    height: 100%;
+    position:absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    filter: blur(10px);
+}
